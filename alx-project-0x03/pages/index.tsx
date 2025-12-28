@@ -2,10 +2,8 @@
 // import { Geist, Geist_Mono } from "next/font/google";
 import Button from "@/components/common/Button";
 import { useRouter } from "next/router";
+import { PageRouteProps } from "@/interfaces";
 
-interface PageRouteProps {
-  pageRoute: string
-}
 
 export default function Home() {
   const router = useRouter();
